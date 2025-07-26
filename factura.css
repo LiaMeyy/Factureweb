@@ -1,0 +1,326 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+
+}
+
+.ESPACIO {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+    background-color: #949fa3;
+}
+
+.contenedor-general {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    justify-content: center;
+    background-color: #ffffff;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    height: 100%;
+    width: 45%;
+}
+
+.Contenedor1 {
+    display: flex;
+    flex-direction: column;
+    color: rgb(0, 0, 0);
+}
+
+.subConte1 {
+    background-color: #dbe3e6;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    justify-items: center;
+    display: grid;
+    grid-template-columns: 20% 60%;
+    justify-content: center;
+    padding: 29px;
+
+}
+
+
+.subConte1 img {
+    vertical-align: middle;
+    margin-right: 5px;
+    vertical-align: right;
+    height: 100%;
+    width: 100%;
+    
+}
+
+
+.subConte1 h3 {
+    color: #6f6f6f;
+    font-size: 100%;
+    margin-top: 8px;
+}
+
+.subConte2 {
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    justify-items: center;
+    display: grid;
+    grid-template-columns: 70% 30%;
+    justify-content: center;
+    margin: 5% 5% 10% 10%
+}
+
+.sub-subconte2-1 {
+    margin-right: 15%;
+}
+
+.sub-subconte2-2 {
+    justify-items: right;
+
+}
+
+.subConte2 h4 {
+    margin-top: 5%;
+    color: #868686;
+    font-weight: normal;
+
+}
+
+.invoice {
+    margin-bottom: 25%;
+    font-size: 20px;
+}
+
+.p {
+    justify-items: right;
+    font-size: 14px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.sub-subconte2-2 p {
+    margin-bottom: 3%;
+}
+
+.subConte3 {
+
+    background-color: #dbe3e6;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    justify-items: center;
+    display: grid;
+    grid-template-columns: 10% 70% 20%;
+    justify-content: center;
+    padding-left: 15%;
+    padding-right: 5%;
+
+}
+
+.subConte3 h3 {
+
+    font-size: 100%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+
+}
+
+.subConte3 h4 {
+    font-size: 100%;
+    margin-top: 8px;
+    font-weight: normal;
+    margin-bottom: 30px;
+
+}
+
+.SubConte4 {
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    justify-items: center;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: center;
+    margin: 5% 5% 5% 70%;
+    font-weight: bold;
+    font-size: 85%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.SubConte4 p {
+    padding-bottom: 20%;
+}
+
+.SubConte5 {
+    font-family: Arial, Helvetica, sans-serif;
+    justify-items: center;
+    display: grid;
+    grid-template-columns: 86% 14%;
+    justify-content: center;
+    margin: 5% 5% 10% 10%
+}
+
+.SubConte5 h4 {
+    margin-top: 5%;
+    color: #868686;
+    font-weight: normal;
+}
+
+.Sub-subConte5-1 {
+    margin-right: 20%;
+
+}
+
+.Sub-subConte5-2 {
+    color: #878d8f;
+    justify-items: right;
+}
+.SubConte6 {
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    justify-items: center;
+    display: grid;
+    grid-template-columns: 90% 10%;
+    justify-content: center;
+    margin: 5% 5% 10% 10%;
+    padding-bottom: 5%;
+    
+}
+.SubConte6 h3 {
+    padding-bottom: 5%;
+}
+.SubConte6 input[type="radio"] {
+   background-color:#dbe3e6; 
+   border: 0;
+}
+.SubConte6 h4 {
+    font-weight: normal;
+    color: #6c7375;
+
+}
+.SubConte6 label {
+    color: #6c7375;
+
+}
+.Contenedor2 {
+    background-color: #53585a;
+    display: flex;
+    flex-direction: column;
+}
+.TituloConte2 {
+    display: flex;
+    background-color: #3e4144;
+    padding: 55px;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-size: 100%;
+    font-weight: bold;
+    font-family:'open sans', sans-serif;
+    letter-spacing: 12px;
+}
+.Conte2-SubConte1{
+     font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    justify-items: center;
+    padding: 30px;
+    color: white;
+    font-size: 12px;
+}
+.Conte2-SubConte1 h3{
+    padding-bottom: 5px
+}
+.Conte2-SubConte1 h4{
+    padding-bottom: 15px;
+    font-weight: normal;
+    color: #abb0b6;
+}
+.Conte2-SubConte2 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    padding: 5%;
+    color: white;
+    background-color: #3e4144;
+    height: 18.8%;
+    margin-bottom:25px;
+
+
+}
+.Conte2-SubConte2 h3 {
+    padding-bottom: 50px;
+
+}
+.Conte2-SubConte2 h4 {
+    padding-bottom: 25px;
+}
+
+.Total {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: left;
+    align-items: left ; 
+    color:#aeb4b9;
+    margin-left: 18%;
+}
+.Total h4 {
+    padding-bottom: 13px;
+    font-size: 13px;
+}
+.Total2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    height: 50px;
+    margin: 46px;
+    color:white;
+}
+.firmaTotal{
+    display: grid;
+    grid-template-rows: 90% 10%;
+    height: 450px;
+
+
+}
+.firma {
+    display: grid;
+    grid-template-rows: 50% 50%;
+    justify-items: center;
+    align-items: center;
+    gap:10px;
+    color:white;
+
+
+}
+@media (max-width: 1100px){
+.contenedor-general{
+    width: 70%;
+}
+}
+.TituloConte2 {
+    height: 50px;
+    
+}
+@media (max-width: 700px){
+.contenedor-general{
+    width: 100%;
+    margin: 0;
+}
+.TituloConte2{
+    font-size: 60%;
+}
+}
+@media (max-width: 500px){
+
+.subConte1{
+    grid-template-columns: 50% 50%;
+    font-size: 15px;
+}
+.TituloConte2 {
+    height: 50px;
+}
+
+
+}
+* {
+    margin: 0
+}
